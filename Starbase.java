@@ -1,4 +1,3 @@
-// I worked on the homework assignment alone, using only course materials.
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -43,7 +42,7 @@ public class Starbase extends Application {
         VBox header = new VBox();
         header.setPadding(new Insets(10, 10, 10, 10));
         header.setAlignment(Pos.CENTER);
-        Text text1 = new Text("Welcome to Starbase 1331!");
+        Text text1 = new Text("Welcome to the Starbase!");
         text1.setFill(Color.WHITE);
         text1.setFont(Font.font("Times New Roman", FontWeight.BOLD, FontPosture.REGULAR, 40));
         header.getChildren().add(text1);
